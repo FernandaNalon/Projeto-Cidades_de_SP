@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c5c4c4;
+}
+
+.cabecalho {
+    background-image: url(../imagens/testefundocabecalho2.jpg);
+    height: 110px;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.cabecalho h1 {
+    color: white;
+    margin-top: 0;
+    padding-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 5px -4px 5px rgb(0, 0, 0);
+}
+
+.corpo {
+    width: 70%;
+    margin: 25px 15% 18px 15%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 3px solid rgba(90, 90, 90, 0.877);
+}
+
+.bandeira {
+    width: 350px;
+    height: 220px;
+    margin: 14px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgb(126, 125, 125);
+}
+
+.textodohino {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0.6em 5.5em 0 6.7em;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    background-color: black;
+    height: 27px;
+    border-top: 3px dashed rgb(131, 131, 131);
+    padding: 15px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 115px 5px 55px;
+    list-style: none;
+    text-shadow: 4px 3px 3.5px rgb(165, 158, 158);
+}
+
+.rodape li {
+    display: inline-block;
+    color: white;
+}
+
+.rodape li a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape li a p {
+    margin: 0;
+}
+
+.home:hover {
+    color: rgb(184, 182, 182);
+}
